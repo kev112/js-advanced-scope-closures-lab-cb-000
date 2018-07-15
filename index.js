@@ -4,6 +4,6 @@ function produceDrivingRange(number) {
     firstAve = toInt(firstAve);
     secondAve = toInt(secondAve);
     distance = Math.abs(secondAve - firstAve);
-    (distance > 0) ? true : false
+    return (distance > 0) ? true : false
   }
 }
