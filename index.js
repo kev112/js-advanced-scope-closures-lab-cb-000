@@ -10,9 +10,9 @@ function produceDrivingRange(number) {
 
     const outOfRange = (distance > number) ? true : false
     if (outOfRange) {
-      return `${distance} blocks out of range`;
+      return `${distance - number} blocks out of range`;
     } else {
-      return `within range by ${distance}`;
+      return `within range by ${number - distance}`;
     }
 
   }
