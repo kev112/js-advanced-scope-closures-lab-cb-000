@@ -3,7 +3,7 @@ function produceDrivingRange(number) {
     function toInt (string) {
       parseInt(string.slice(0,-2) )
     };
-    firstAve = toInt(firstAve);
+    firstAve = toInt('6th');
     secondAve = toInt(secondAve);
     let distance = Math.abs(secondAve - firstAve);
 
