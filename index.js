@@ -18,6 +18,8 @@ function produceDrivingRange(number) {
   }
 }
 
-function produceTipCalculator() {
-
+function produceTipCalculator(tip) {
+  return function () {
+    
+  }
 }
