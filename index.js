@@ -4,7 +4,7 @@ function produceDrivingRange(number) {
       parseInt(string.slice(0,-2) )
     };
     firstAve = toInt('6th');
-    secondAve = toInt(secondAve);
+    secondAve = toInt('7th');
     let distance = Math.abs(secondAve - firstAve);
 
     const outOfRange = (distance > 10) ? true : false
