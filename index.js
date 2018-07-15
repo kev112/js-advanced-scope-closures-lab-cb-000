@@ -5,9 +5,11 @@ function produceDrivingRange(number) {
     secondAve = toInt(secondAve);
     distance = Math.abs(secondAve - firstAve);
 
-    const outOfRange = (distance > 0) ? true : false
+    const outOfRange = (distance > 10) ? true : false
     if (outOfRange) {
-      return
+      return `${distance}`
+    } else {
+      return `${distance}`
     }
 
   }
