@@ -1,6 +1,6 @@
 function produceDrivingRange(number) {
   return function (firstAve, secondAve) {
-    const toInt = function (string) {
+    function toInt (string) {
       parseInt(string.slice(0,-2) )
     };
     firstAve = toInt(firstAve);
