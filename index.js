@@ -1,7 +1,7 @@
 function produceDrivingRange(number) {
   return function (firstAve, secondAve) {
     function toInt (string) {
-      parseInt(string.slice(0,-2) )
+      return parseInt(string.slice(0,-2) )
     };
     firstAve = toInt('6th');
     secondAve = toInt('7th');
