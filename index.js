@@ -3,6 +3,6 @@ function produceDrivingRange(number) {
     const toInt = (string) => {parseInt(string.splice(0,-2) )};
     firstAve = splice(firstAve);
     secondAve = splice(secondAve);
-
+    distance = Math.abs(secondAve - firstAve)
   }
 }
